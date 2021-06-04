@@ -1,0 +1,1123 @@
+Create Database ieinstruments;
+Use ieinstruments;
+Create Table Employee
+(
+EmployeeID char(3),
+Employee_Name varchar(50),
+Primary key (EmployeeID)
+);
+
+insert into Employee (EmployeeID, Employee_Name) values ('AR', 'Amara Rosenstock');
+insert into Employee (EmployeeID, Employee_Name) values ('ThD', 'Thorin Dracksford');
+insert into Employee (EmployeeID, Employee_Name) values ('FC', 'Fee Cushe');
+insert into Employee (EmployeeID, Employee_Name) values ('IV', 'Ivette Vaskov');
+insert into Employee (EmployeeID, Employee_Name) values ('BS', 'Barnabas Stripling');
+insert into Employee (EmployeeID, Employee_Name) values ('BT', 'Brantley Truesdale');
+insert into Employee (EmployeeID, Employee_Name) values ('ZH', 'Zedekiah Harrad');
+insert into Employee (EmployeeID, Employee_Name) values ('SH', 'Shurwood Hugland');
+insert into Employee (EmployeeID, Employee_Name) values ('EW', 'Edan Worters');
+insert into Employee (EmployeeID, Employee_Name) values ('TD', 'Tobit Draisey');
+insert into Employee (EmployeeID, Employee_Name) values ('LM', 'Lisle Marquess');
+insert into Employee (EmployeeID, Employee_Name) values ('WZ', 'Winifred Zavattero');
+insert into Employee (EmployeeID, Employee_Name) values ('MR', 'Myriam Rumble');
+insert into Employee (EmployeeID, Employee_Name) values ('EC', 'Evan Cadigan');
+insert into Employee (EmployeeID, Employee_Name) values ('DE', 'Doyle Engelbrecht');
+
+Use ieinstruments;
+Create Table Customer
+(
+CustomerID varchar(4),
+Customer_Name varchar (100),
+Customer_Address char(100),
+Email_Address varchar(100),
+Primary Key (CustomerID)
+);
+
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C001', 'Ken Gaskin', '933 Pine View Way', 'kgaskin0@reddit.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C002', 'Louise Manuaud', '0800 Village Junction', 'lmanuaud1@vimeo.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C003', 'Aldridge Rodson', '5 Meadow Ridge Circle', 'arodson2@nsw.gov.au');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C004', 'Ulrika Gregorio', '49950 Alpine Terrace', 'ugregorio3@mac.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C005', 'Darcee Castanho', '8 Scofield Park', 'dcastanho4@angelfire.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C006', 'Ephrayim Pakenham', '007 Badeau Junction', 'epakenham5@dion.ne.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C007', 'Waylin Greathead', '8018 Rutledge Alley', 'wgreathead6@reverbnation.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C008', 'Nicolai Japp', '2 Waxwing Junction', 'njapp7@sfgate.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C009', 'Jill Kasting', '71078 Scoville Way', 'jkasting8@ucsd.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C010', 'Orion Miall', '7 Pearson Park', 'omiall9@mysql.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C011', 'Adelaida Hambrook', '39732 Del Sol Circle', 'ahambrooka@seesaa.net');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C012', 'Vinita Roth', '124 Golf View Court', 'vrothb@sbwire.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C013', 'Anetta Raccio', '230 Nelson Place', 'araccioc@cisco.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C014', 'Tyler Prendergrast', '0835 Havey Lane', 'tprendergrastd@examiner.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C015', 'Fayth Flaubert', '3731 Morning Way', 'fflauberte@usnews.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C016', 'Martyn Gabites', '82 Cardinal Hill', 'mgabitesf@cmu.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C017', 'Allyn Jaffrey', '59 Clarendon Hill', 'ajaffreyg@usnews.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C018', 'Dolf Bellie', '714 Prairie Rose Way', 'dbellieh@infoseek.co.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C019', 'Malanie Glede', '61666 Laurel Terrace', 'mgledei@people.com.cn');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C020', 'Gaston Nottle', '02578 Grim Road', 'gnottlej@yahoo.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C021', 'Kendra Maiklem', '561 Lawn Plaza', 'kmaiklemk@ifeng.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C022', 'Angeline Balas', '05140 Lotheville Avenue', 'abalasl@devhub.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C023', 'Jefferey Mallinar', '1157 Fairfield Court', 'jmallinarm@cyberchimps.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C024', 'Sadie McGready', '868 Nova Alley', 'smcgreadyn@imdb.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C025', 'Bax Persse', '169 Doe Crossing Plaza', 'bpersseo@unicef.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C026', 'Patrica Shiers', '61373 Sunfield Parkway', 'pshiersp@berkeley.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C027', 'Fidelia Halewood', '42143 Bunker Hill Circle', 'fhalewoodq@etsy.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C028', 'Maurene Reskelly', '729 Farmco Way', 'mreskellyr@cornell.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C029', 'Gillie Klasing', '85 Ridgeway Street', 'gklasings@delicious.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C030', 'Gisele Brambley', '25749 Jana Crossing', 'gbrambleyt@webeden.co.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C031', 'Rebecca Edwards', '0 Morningstar Pass', 'redwardsu@uol.com.br');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C032', 'Dorena Bearblock', '5949 Bluejay Crossing', 'dbearblockv@gravatar.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C033', 'Lambert Race', '50602 Meadow Vale Road', 'lracew@hao123.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C034', 'Francklin Eisikowitz', '2 Carioca Hill', 'feisikowitzx@nyu.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C035', 'Tulley Kilborn', '870 Mcbride Street', 'tkilborny@huffingtonpost.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C036', 'Natty Battey', '748 Sauthoff Terrace', 'nbatteyz@indiegogo.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C037', 'Junette Badini', '3 Dexter Plaza', 'jbadini10@example.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C038', 'Leeann Bech', '6 Mariners Cove Center', 'lbech11@chicagotribune.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C039', 'Krispin Thirlwall', '70903 Monterey Avenue', 'kthirlwall12@ft.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C040', 'Billy Foulger', '38760 High Crossing Junction', 'bfoulger13@unc.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C041', 'Cristionna Grady', '6925 Farwell Alley', 'cgrady14@fema.gov');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C042', 'Richart Rake', '27 Quincy Alley', 'rrake15@nsw.gov.au');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C043', 'Auguste Bend', '2 Artisan Junction', 'abend37@hp.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C044', 'Bruno Gaskarth', '24292 Debra Road', 'bgaskarth38@netlog.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C045', 'Rey Imort', '80723 Fremont Way', 'rimort39@uol.com.br');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C046', 'Natividad Duffill', '5 Hallows Terrace', 'nduffill3a@so-net.ne.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C047', 'Joel Sealey', '3 Starling Terrace', 'jsealey3b@cnet.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C048', 'Nesta Calendar', '15 Scott Terrace', 'ncalendar3c@economist.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C049', 'Darya Parnby', '254 Darwin Park', 'dparnby3d@nps.gov');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C050', 'Danika McAlindon', '33368 Fremont Circle', 'dmcalindon3e@salon.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C051', 'Fina Widdall', '5 Killdeer Way', 'fwiddall3f@ebay.co.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C052', 'Rey Boneham', '2 Anthes Way', 'rboneham3g@macromedia.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C053', 'Phelia Arthars', '8295 Utah Avenue', 'parthars3h@utexas.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C054', 'Harriott Awton', '60 Summer Ridge Park', 'hawton3i@reuters.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C055', 'Myrilla Grisewood', '7424 Sachs Pass', 'mgrisewood3j@youtu.be');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C056', 'Chadwick Esberger', '169 Parkside Terrace', 'cesberger3k@plala.or.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C057', 'Karena Maleney', '2 Evergreen Plaza', 'kmaleney3l@feedburner.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C058', 'Olimpia Van Der Vlies', '6 School Court', 'ovan3m@unesco.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C059', 'Henrik Surgeon', '7 Donald Point', 'hsurgeon3n@theglobeandmail.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C060', 'Kris Minocchi', '657 Anniversary Road', 'kminocchi3o@4shared.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C061', 'Isaiah Burland', '4502 Derek Center', 'iburland3p@acquirethisname.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C062', 'Grantham Jadczak', '38597 Old Gate Way', 'gjadczak3q@pagesperso-orange.fr');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C063', 'Morten Cheley', '334 Spenser Court', 'mcheley3r@bluehost.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C064', 'Merla Pedycan', '70 Hansons Center', 'mpedycan3s@hibu.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C065', 'Bayard Leyban', '52694 Burrows Junction', 'bleyban3t@utexas.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C066', 'Christiana Walkden', '53 6th Avenue', 'cwalkden3u@rakuten.co.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C067', 'Graeme Beevers', '287 Huxley Trail', 'gbeevers3v@networksolutions.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C068', 'Kaine Rosenblath', '70 Swallow Street', 'krosenblath3w@vistaprint.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C069', 'Anne-marie Lantaff', '68879 Cody Terrace', 'alantaff3x@yahoo.co.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C070', 'Jillayne MacFadzan', '6761 Straubel Lane', 'jmacfadzan3y@goodreads.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C071', 'Jeane Martin', '0848 Sherman Crossing', 'jmartin3z@intel.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C072', 'Manuel Scholer', '7 Elka Pass', 'mscholer40@google.ca');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C073', 'Jess Dutch', '2904 Mccormick Road', 'jdutch41@bloglovin.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C074', 'Morrie Crozier', '8649 Rockefeller Circle', 'mcrozier42@cdc.gov');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C075', 'Leeland Croker', '5 Oneill Terrace', 'lcroker43@twitter.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C076', 'Corette Comfort', '024 Leroy Junction', 'ccomfort44@fotki.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C077', 'Sunshine Rhule', '69 5th Crossing', 'srhule45@yellowbook.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C078', 'Benito Baggiani', '86950 Lighthouse Bay Alley', 'bbaggiani46@unblog.fr');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C079', 'Scotti Oxenford', '73321 Loftsgordon Hill', 'soxenford47@flickr.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C080', 'Parry Ungaretti', '1 Bunting Plaza', 'pungaretti48@pbs.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C081', 'Bethena Ruprecht', '0878 Dwight Junction', 'bruprecht49@pinterest.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C082', 'Augustine Feldbrin', '79 Forest Run Lane', 'afeldbrin4a@google.com.au');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C083', 'Bennie Biesterfeld', '83 Green Avenue', 'bbiesterfeld4b@cnbc.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C084', 'Ginevra O''Duilleain', '81163 Barby Park', 'goduilleain4c@google.pl');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C085', 'Sandor Dixsee', '951 Lien Avenue', 'sdixsee4d@accuweather.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C086', 'Aprilette Pandya', '50 Garrison Circle', 'apandya4e@mapquest.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C087', 'Robyn Basillon', '23066 Scofield Pass', 'rbasillon7y@flavors.me');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C088', 'Sid Spinnace', '0532 Summerview Circle', 'sspinnace7z@unblog.fr');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C089', 'Grove Houchin', '90551 Sloan Parkway', 'ghouchin80@hubpages.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C090', 'Collete Teece', '9 Emmet Street', 'cteece81@mlb.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C091', 'Amos Van Daalen', '1592 Dottie Junction', 'avan82@google.fr');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C092', 'Milty De Filippis', '6 Talisman Center', 'mde83@com.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C093', 'Elianora Beaton', '12 Anhalt Hill', 'ebeaton84@microsoft.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C094', 'Irv Amis', '7295 Bay Terrace', 'iamis85@cmu.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C095', 'Lothario MacFadzan', '5919 Bultman Circle', 'lmacfadzan86@g.co');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C096', 'Odie Greaser', '8 Clove Street', 'ogreaser87@nhs.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C097', 'Ingaborg Macieiczyk', '34504 Summit Parkway', 'imacieiczyk88@ox.ac.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C098', 'Ansel Craigheid', '22 Golf View Terrace', 'acraigheid89@hud.gov');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C099', 'Dave Cattanach', '77836 Heath Way', 'dcattanach8a@gnu.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C100', 'Viva Sancto', '1 Aberg Drive', 'vsancto8b@elpais.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C101', 'Ralph Lamperti', '3581 Gale Avenue', 'rlamperti8c@nhs.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C102', 'Yelena Mordin', '4 Buena Vista Point', 'ymordin8d@tinyurl.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C103', 'Osbert Gove', '75545 Myrtle Crossing', 'ogove8e@msn.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C104', 'Bea Bartels', '03 Lawn Crossing', 'bbartels8f@time.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C105', 'Nicoline Hackney', '513 Manley Parkway', 'nhackney8g@ning.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C106', 'Jerrold Huison', '85718 Fairview Place', 'jhuison8h@flickr.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C107', 'Ivy Peakman', '7976 Warner Alley', 'ipeakman8i@vistaprint.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C108', 'Rosalynd Paik', '7883 Montana Road', 'rpaik8j@csmonitor.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C109', 'Sisile Partkya', '12 Eastwood Alley', 'spartkya8k@mapquest.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C110', 'Hewe Benardet', '1196 Hazelcrest Street', 'hbenardet8l@cafepress.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C111', 'Annette McMillan', '7 Walton Place', 'amcmillan8m@theguardian.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C112', 'Valle Lampart', '7763 Annamark Trail', 'vlampart8n@telegraph.co.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C113', 'Cesare Tremathack', '15928 Warrior Place', 'ctremathack8o@blog.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C114', 'Zollie Ebsworth', '6187 Killdeer Court', 'zebsworth8p@macromedia.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C115', 'Reinald Depke', '19319 High Crossing Pass', 'rdepke8q@slashdot.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C116', 'Kendrick Kops', '306 Rieder Drive', 'kkops8r@google.co.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C117', 'Loraine Westphal', '286 Farwell Way', 'lwestphal8s@harvard.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C118', 'Leigh Alman', '89 Commercial Lane', 'lalman8t@google.ca');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C119', 'Deloris Foltin', '1 Russell Junction', 'dfoltin8u@skype.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C120', 'Bev Charke', '1 Prairieview Crossing', 'bcharke8v@economist.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C121', 'Patrizia Brownsworth', '21336 Nova Drive', 'pbrownsworth8w@opensource.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C122', 'Terrye Readings', '15228 Mayer Drive', 'treadings8x@sun.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C123', 'Cesar Meecher', '8635 Jay Pass', 'cmeecher8y@blinklist.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C124', 'Vina Matteoni', '8189 Loeprich Park', 'vmatteoni8z@nyu.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C125', 'Priscilla Dugmore', '42 Hazelcrest Center', 'pdugmore91@youtu.be');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C126', 'Latrina Simants', '4250 Westridge Trail', 'lsimants92@tumblr.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C127', 'Joe Spileman', '8 Dottie Street', 'jspileman93@squidoo.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C128', 'Dasya Chagg', '7441 Nova Alley', 'dchagg94@photobucket.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C129', 'Papagena Neeves', '95738 Wayridge Alley', 'pneeves95@nationalgeographic.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C130', 'Thomasin Connechy', '4 Arrowood Road', 'tconnechy96@bravesites.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C131', 'Marys Frain', '5427 Farmco Court', 'mfrain97@ihg.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C132', 'Brandyn Dusting', '9 Continental Center', 'bdusting98@noaa.gov');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C133', 'Ekaterina Ledward', '987 Veith Trail', 'eledward99@naver.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C134', 'Henderson Trymme', '65 Meadow Valley Way', 'htrymme9a@gravatar.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C135', 'Dierdre Jantzen', '40665 Sachtjen Place', 'djantzen9b@shop-pro.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C136', 'Hali Matthensen', '8 School Way', 'hmatthensen9c@hatena.ne.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C137', 'Pet Insworth', '85 Meadow Ridge Avenue', 'pinsworth9d@walmart.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C138', 'Giavani Poynton', '9919 Graedel Plaza', 'gpoynton9e@noaa.gov');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C139', 'Davita Charopen', '27 Warbler Park', 'dcharopen9f@miitbeian.gov.cn');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C140', 'Seymour Howcroft', '55095 Fremont Avenue', 'showcroft9g@hubpages.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C141', 'Ella MacCleay', '48780 Homewood Road', 'emaccleay9h@chron.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C142', 'Neddy Polsin', '5715 Manitowish Street', 'npolsin9i@patch.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C143', 'Maynard Gillard', '0539 Shelley Drive', 'mgillard9j@china.com.cn');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C144', 'Itch Jakolevitch', '79 Packers Trail', 'ijakolevitch9k@ftc.gov');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C145', 'Teador Rosa', '66595 Gerald Road', 'trosa9l@arstechnica.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C146', 'Vinnie Stennings', '5 Morning Street', 'vstennings9m@symantec.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C147', 'Dael MacGiolla', '8976 Orin Avenue', 'dmacgiolla9n@sciencedirect.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C148', 'Gus Kinsella', '481 Northland Junction', 'gkinsella9o@sakura.ne.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C149', 'Innis Kilfedder', '328 Surrey Park', 'ikilfedder9p@pinterest.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C150', 'Hermina Boig', '9 Mallard Junction', 'hboig9q@instagram.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C151', 'Amandy Guise', '8 Monterey Point', 'aguise9r@studiopress.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C152', 'Archaimbaud Conibere', '09 Twin Pines Avenue', 'aconibere9s@arizona.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C153', 'Matthiew Shellsheere', '2169 David Road', 'mshellsheere9t@paypal.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C154', 'Roberta Hatch', '9 Melvin Court', 'rhatch9u@techcrunch.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C155', 'Gerianne Sowte', '7035 Almo Road', 'gsowte9v@dropbox.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C156', 'Errol Rattenbury', '79321 Fieldstone Street', 'erattenbury9w@wiley.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C157', 'Harmonia Creyke', '63 Golf Course Point', 'hcreyke9x@nasa.gov');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C158', 'Gene Bowerman', '7 Burrows Alley', 'gbowerman9y@jimdo.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C159', 'Ciel Thurston', '636 Lake View Hill', 'cthurston9z@mozilla.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C160', 'Shaylyn Tupman', '228 Steensland Alley', 'stupmana0@lulu.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C161', 'Coreen Maclean', '76 Bartillon Crossing', 'cmacleana1@51.la');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C162', 'Honor Cayzer', '819 John Wall Road', 'hcayzera2@multiply.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C163', 'Wanda Kippie', '9 Shoshone Lane', 'wkippiea3@ted.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C164', 'Eziechiele Vanyard', '7944 American Ash Pass', 'evanyarda4@wikimedia.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C165', 'Candis Cashley', '1 Evergreen Terrace', 'ccashleya5@friendfeed.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C166', 'Jessamyn Bramich', '2087 Gina Court', 'jbramicha6@ow.ly');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C167', 'Chester O''Cullinane', '090 Welch Hill', 'cocullinanea7@homestead.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C168', 'Ethe Stamper', '8 Mayer Hill', 'estampera8@youtu.be');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C169', 'Letitia Threadgold', '87601 Manufacturers Lane', 'lthreadgolda9@bigcartel.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C170', 'Andria Grimsdale', '5414 Division Way', 'agrimsdaleaa@home.pl');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C171', 'Rosalinde Poge', '4 Chinook Court', 'rpogeab@xrea.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C172', 'Alberik Kidstoun', '2237 Mesta Way', 'akidstounac@ox.ac.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C173', 'Iggy Rembrant', '19 Mallard Avenue', 'irembrantad@microsoft.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C174', 'Miriam Godehard.sf', '557 Novick Circle', 'mgodehardsfae@123-reg.co.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C175', 'Korie Duddridge', '443 Leroy Pass', 'kduddridgeaf@biblegateway.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C176', 'Mandie Ferriby', '5 Becker Alley', 'mferribyag@sciencedirect.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C177', 'Darby Skalls', '09 Crest Line Terrace', 'dskallsah@naver.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C178', 'Aubine Gylle', '15974 Dryden Circle', 'agylleai@ox.ac.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C179', 'Tracy Kalb', '139 Riverside Avenue', 'tkalbaj@mysql.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C180', 'Gayel Kidston', '88 Sommers Alley', 'gkidstonak@dion.ne.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C181', 'Madelina Sherston', '2800 Amoth Road', 'msherstonal@friendfeed.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C182', 'Glenden Antonchik', '11498 Doe Crossing Point', 'gantonchikam@businesswire.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C183', 'Gannon Crake', '92848 Sunbrook Way', 'gcrakean@opensource.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C184', 'Gaile Storah', '2880 Vidon Drive', 'gstorahao@redcross.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C185', 'Martyn Adao', '566 Butterfield Lane', 'madaoap@admin.ch');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C186', 'Amery De Laci', '12 Mallory Road', 'adeaq@github.io');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C187', 'Lesli Causier', '51 Hazelcrest Alley', 'lcausierar@delicious.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C188', 'Benji Ondrasek', '01848 Prairie Rose Avenue', 'bondrasekas@cbsnews.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C189', 'Dorian Aubry', '5 Monica Way', 'daubryat@timesonline.co.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C190', 'Annnora Hazelton', '5396 Southridge Court', 'ahazeltonau@redcross.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C191', 'Claudina Insall', '134 Village Green Drive', 'cinsallav@ox.ac.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C192', 'Dag Dadge', '34247 Almo Plaza', 'ddadgeaw@hugedomains.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C193', 'Charlton McKeag', '3 Ohio Plaza', 'cmckeagax@springer.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C194', 'Annadiane Mapstone', '5 Heffernan Road', 'amapstoneay@lycos.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C195', 'Hillier Dwane', '4719 Armistice Junction', 'hdwaneaz@amazon.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C196', 'Seth Bateson', '88336 Katie Plaza', 'sbatesonb0@discovery.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C197', 'Nathalia Peascod', '7662 Gale Park', 'npeascodb1@naver.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C198', 'Gaven Pellingar', '899 Scott Road', 'gpellingarb2@paginegialle.it');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C199', 'Ruggiero Bettis', '1 Eagan Hill', 'rbettisb3@seattletimes.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C200', 'Gradeigh Gulliman', '77719 Veith Drive', 'ggullimanb4@usa.gov');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C201', 'Hobard Probbings', '56491 Forest Pass', 'hprobbingsb5@washington.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C202', 'Arie Swiers', '45 Hayes Drive', 'aswiersb6@netscape.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C203', 'Norine Newbegin', '9073 Sunbrook Center', 'nnewbeginb7@tinypic.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C204', 'Lorelle Stickells', '576 Sunfield Plaza', 'lstickellsb8@shop-pro.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C205', 'Carolynn Augustin', '80 Vidon Circle', 'caugustinb9@meetup.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C206', 'Jeremiah Pinckard', '970 Ohio Crossing', 'jpinckardba@uol.com.br');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C207', 'Trefor McCollum', '0 Ronald Regan Center', 'tmccollumbb@eventbrite.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C208', 'Hedwiga Pryce', '3 Westridge Avenue', 'hprycebc@wiley.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C209', 'Phineas Greg', '72 Corben Circle', 'pgregbd@bbb.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C210', 'Fanya Cockerell', '33032 Banding Parkway', 'fcockerellbe@oaic.gov.au');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C211', 'Tammie Turney', '50425 Coleman Lane', 'tturneybf@examiner.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C212', 'Arnoldo Tyre', '26 Bashford Parkway', 'atyrebg@purevolume.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C213', 'Alica Langhor', '67216 Prairieview Circle', 'alanghorbh@npr.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C214', 'Tanner Dudding', '98982 Shelley Circle', 'tduddingbi@i2i.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C215', 'Ronni Wipper', '9 Namekagon Drive', 'rwipperbj@webeden.co.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C216', 'Ilka Jenking', '196 Thompson Pass', 'ijenkingbk@topsy.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C217', 'Shara Gwinnett', '0 Lindbergh Drive', 'sgwinnettbl@edublogs.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C218', 'Kathlin Saundercock', '969 Beilfuss Park', 'ksaundercockbm@goo.gl');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C219', 'Aksel Sewell', '102 Anthes Road', 'asewellbn@php.net');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C220', 'Hanna Hulance', '06 Mendota Trail', 'hhulancebo@artisteer.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C221', 'Obadiah Brunetti', '7984 International Place', 'obrunettibp@berkeley.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C222', 'Wandie Rippingall', '84 Green Ridge Terrace', 'wrippingallbq@dell.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C223', 'Cynthy Dreakin', '3 Sunbrook Junction', 'cdreakinbr@unc.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C224', 'Hinda Kerwick', '3467 Maywood Junction', 'hkerwickbs@google.com.au');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C225', 'Reider Grindley', '7 Mallory Street', 'rgrindleybt@rakuten.co.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C226', 'Alecia Itskovitz', '051 Forest Junction', 'aitskovitzbu@feedburner.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C227', 'Cob Laight', '65 Lighthouse Bay Trail', 'claightbv@live.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C228', 'Beltran Sibbert', '3238 Columbus Center', 'bsibbertbw@cafepress.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C229', 'Kassie Mandrier', '41811 Dixon Road', 'kmandrierbx@yale.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C230', 'Heriberto Itter', '900 Londonderry Center', 'hitterby@phoca.cz');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C231', 'Selma Trumpeter', '64849 Fair Oaks Point', 'strumpeterbz@mac.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C232', 'Maurene Mallard', '7 Maywood Pass', 'mmallardc0@php.net');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C233', 'Lamar Ardy', '606 Forster Place', 'lardyc1@nytimes.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C234', 'Cicely Vasyukov', '3 Sage Terrace', 'cvasyukovc2@ask.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C235', 'Teador Readings', '92 Duke Point', 'treadingsc3@sciencedirect.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C236', 'Gusti Suart', '6 Sullivan Circle', 'gsuartc4@cafepress.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C237', 'Onida Andrzej', '8 Upham Court', 'oandrzejc5@de.vu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C238', 'Kassia Reap', '7794 Marcy Plaza', 'kreapc6@last.fm');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C239', 'Hunt Napoleon', '2 American Ash Junction', 'hnapoleonc7@list-manage.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C240', 'Lolly Edgecumbe', '4 Eastwood Lane', 'ledgecumbec8@si.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C241', 'Emlynn Troyes', '51191 Sycamore Center', 'etroyesc9@dailymail.co.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C242', 'Irving Filisov', '32608 Russell Crossing', 'ifilisovca@yelp.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C243', 'Shayne Burkinshaw', '4 Loomis Center', 'sburkinshawcb@bravesites.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C244', 'Leesa Dunnet', '85693 Arrowood Point', 'ldunnetcc@disqus.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C245', 'Althea Inkin', '2 Crownhardt Avenue', 'ainkincd@forbes.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C246', 'Lanni Barber', '11183 Bunker Hill Avenue', 'lbarberce@technorati.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C247', 'Ody Saggs', '24500 Artisan Way', 'osaggscf@bing.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C248', 'Abramo Wannell', '3222 Oneill Crossing', 'awannellcg@abc.net.au');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C249', 'Arte Vernalls', '07892 Fairview Avenue', 'avernallsch@indiatimes.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C250', 'Berry Anthes', '4152 Pierstorff Street', 'banthesci@ftc.gov');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C251', 'Sylvan Castillou', '76 Sutteridge Terrace', 'scastilloucj@gizmodo.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C252', 'Fax Lowensohn', '700 Kinsman Place', 'flowensohnck@uol.com.br');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C253', 'Ayn Bennington', '7 Hayes Court', 'abenningtoncl@hubpages.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C254', 'Bernita Scranny', '069 Manufacturers Crossing', 'bscrannycm@last.fm');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C255', 'Konrad Palk', '68421 Forest Dale Pass', 'kpalkcn@telegraph.co.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C256', 'Shauna Sheather', '2 Brickson Park Court', 'ssheatherco@twitter.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C257', 'Leontyne Weber', '641 Artisan Hill', 'lwebercp@spiegel.de');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C258', 'Ilyssa Stanwix', '58396 Merrick Lane', 'istanwixcq@icio.us');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C259', 'Mirella Feitosa', '95 Rieder Parkway', 'mfeitosacr@cisco.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C260', 'Ari Ramsden', '9 Weeping Birch Parkway', 'aramsdencs@github.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C261', 'Louella Broadist', '2952 Westerfield Street', 'lbroadistct@utexas.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C262', 'Hernando Mayou', '7 Green Park', 'hmayoucu@bing.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C263', 'Madella Bartosik', '96799 Caliangt Way', 'mbartosikcv@sciencedirect.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C264', 'Haven Boler', '5590 Lien Park', 'hbolercw@etsy.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C265', 'Karel Tallent', '64281 Meadow Vale Alley', 'ktallentcx@xrea.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C266', 'Ruthanne Wiltsher', '8556 Shoshone Avenue', 'rwiltshercy@uol.com.br');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C267', 'Enos Rubbens', '51 Graceland Court', 'erubbenscz@ucla.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C268', 'Stefan Le land', '235 Westend Court', 'sled0@dion.ne.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C269', 'Lyndy McSporrin', '51644 Kings Trail', 'lmcsporrind1@nytimes.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C270', 'Wat Mattocks', '11 Sutteridge Alley', 'wmattocksd2@bizjournals.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C271', 'Alard MacCrosson', '814 Riverside Parkway', 'amaccrossond3@jiathis.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C272', 'Margit Pailin', '9 Ridge Oak Circle', 'mpailind4@admin.ch');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C273', 'Graehme Beardshall', '15689 Sutherland Circle', 'gbeardshalld5@vinaora.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C274', 'Kenny Hindenburg', '0 Annamark Plaza', 'khindenburgd6@angelfire.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C275', 'Case Tuckett', '14220 Crescent Oaks Point', 'ctuckettd7@123-reg.co.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C276', 'Arlee Birckmann', '0847 Melvin Alley', 'abirckmannd8@businessweek.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C277', 'Marris Menghi', '29942 Toban Park', 'mmenghid9@jimdo.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C278', 'Atlante Blackborne', '98 Roxbury Avenue', 'ablackborneda@addthis.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C279', 'Hasty Cicci', '04528 Bayside Center', 'hciccidb@ycombinator.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C280', 'Wynne Willas', '6413 Carey Trail', 'wwillasdc@ustream.tv');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C281', 'Fairleigh Syrie', '72 Springs Point', 'fsyriedd@uiuc.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C282', 'Barbabas Niaves', '4 Bunker Hill Hill', 'bniavesde@samsung.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C283', 'Eduard Monan', '4935 Sundown Road', 'emonandf@patch.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C284', 'Leon Pietruszka', '52 Harper Crossing', 'lpietruszkadg@comsenz.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C285', 'Bibi Fireman', '7 Hooker Park', 'bfiremandh@buzzfeed.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C286', 'Gus Newband', '468 Clove Circle', 'gnewbanddi@behance.net');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C287', 'Hamnet Jandak', '29 Forest Dale Crossing', 'hjandakdj@reuters.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C288', 'Karon Baine', '5 Aberg Street', 'kbainedk@google.ca');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C289', 'Richmound De Mattei', '224 Sundown Pass', 'rdedl@so-net.ne.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C290', 'Anthea Terrey', '0 Upham Plaza', 'aterreydm@yale.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C291', 'Brendis Dallywater', '457 Aberg Crossing', 'bdallywaterdn@ifeng.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C292', 'Flynn Seebright', '75584 Delaware Avenue', 'fseebrightdo@springer.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C293', 'Yance Finlator', '5 Arkansas Road', 'yfinlatordp@deviantart.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C294', 'Lorelle Tompkinson', '233 Banding Center', 'ltompkinsondq@google.com.hk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C295', 'Olivier Jebb', '22 Vernon Junction', 'ojebbdr@arstechnica.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C296', 'Jessy Izard', '23315 Heath Way', 'jizardds@boston.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C297', 'Noll Dannel', '44310 Corry Way', 'ndanneldt@usgs.gov');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C298', 'Romain Fullstone', '9 Fairview Drive', 'rfullstonedu@sourceforge.net');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C299', 'Saul Garnall', '85 Walton Pass', 'sgarnalldv@dedecms.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C300', 'Nancy Cundy', '77821 Michigan Alley', 'ncundydw@blogs.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C301', 'Latia Cumbers', '831 Eagle Crest Plaza', 'lcumbersdx@oaic.gov.au');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C302', 'Abey Korting', '80 Beilfuss Avenue', 'akortingdy@cargocollective.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C303', 'Humberto Melland', '36318 Bobwhite Junction', 'hmellanddz@blogger.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C304', 'Aleta Waters', '44554 Corry Drive', 'awaterse0@google.nl');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C305', 'Dedie Tesmond', '91 Garrison Court', 'dtesmonde1@princeton.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C306', 'Torrance Keppe', '3 2nd Way', 'tkeppee2@abc.net.au');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C307', 'Nikkie Falkingham', '23219 Crowley Place', 'nfalkinghame3@wsj.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C308', 'Natividad de Villier', '6682 Russell Way', 'ndee4@edublogs.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C309', 'Deb Fouracres', '720 Melrose Crossing', 'dfouracrese5@alexa.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C310', 'Gael Crathorne', '46477 Bonner Avenue', 'gcrathornee6@dailymail.co.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C311', 'Bethena Rump', '7514 Heath Parkway', 'brumpe7@spiegel.de');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C312', 'Alexio Pigot', '993 Butternut Center', 'apigote8@intel.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C313', 'Phyllis Tomaszewicz', '530 Lunder Alley', 'ptomaszewicze9@paypal.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C314', 'Dilly Dimitresco', '42059 Fair Oaks Court', 'ddimitrescoea@washington.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C315', 'Jorey Lenormand', '6894 Waxwing Avenue', 'jlenormandeb@ucoz.ru');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C316', 'Sascha Beaven', '66 Red Cloud Way', 'sbeavenec@imdb.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C317', 'Welsh Southcoat', '5731 Merrick Way', 'wsouthcoated@free.fr');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C318', 'Orelee Suter', '6 Spenser Court', 'osuteree@telegraph.co.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C319', 'Ernesta Buckett', '568 Jana Pass', 'ebuckettef@stanford.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C320', 'Evania Caush', '68766 Green Ridge Drive', 'ecausheg@technorati.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C321', 'Constantin Preuvost', '43 Bartillon Road', 'cpreuvosteh@phoca.cz');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C322', 'Zedekiah Buist', '61437 Ilene Way', 'zbuistei@stumbleupon.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C323', 'Carrissa Wynrahame', '224 Kensington Center', 'cwynrahameej@soup.io');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C324', 'Linnet Fettes', '23403 Scoville Trail', 'lfettesek@comsenz.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C325', 'Giselle Larderot', '85796 Debs Lane', 'glarderotel@ovh.net');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C326', 'Madelin Darling', '611 Kedzie Terrace', 'mdarlingem@psu.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C327', 'Lewie Wibberley', '8485 Sherman Crossing', 'lwibberleyen@tinyurl.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C328', 'Ethelind Rymell', '9 Morrow Trail', 'erymelleo@typepad.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C329', 'Isahella Cunnow', '04 Huxley Junction', 'icunnowep@prnewswire.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C330', 'Dillon Revett', '52815 1st Alley', 'drevetteq@bandcamp.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C331', 'Blair Lere', '421 Utah Pass', 'blereer@archive.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C332', 'Neala Starling', '43085 Toban Street', 'nstarlinges@msu.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C333', 'Cherice Wermerling', '9036 Goodland Road', 'cwermerlinget@dyndns.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C334', 'Iggy Richings', '259 Derek Parkway', 'irichingseu@smugmug.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C335', 'Amata Jovicic', '279 Dottie Alley', 'ajovicicev@shareasale.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C336', 'Clari Sapsed', '53134 Buhler Crossing', 'csapsedew@cisco.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C337', 'Micky Gensavage', '835 Farmco Junction', 'mgensavageex@dagondesign.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C338', 'Godfree Pocke', '33924 Coleman Trail', 'gpockeey@noaa.gov');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C339', 'Timi Wildman', '54 5th Junction', 'twildmanez@posterous.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C340', 'Twila Bru', '8 Londonderry Alley', 'tbruf0@wordpress.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C341', 'Gaston Smoth', '91 Parkside Lane', 'gsmothf1@domainmarket.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C342', 'Olly Whithorn', '35 Burning Wood Street', 'owhithornf2@sciencedaily.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C343', 'Giacopo Haliday', '3708 Forest Dale Road', 'ghalidayf3@zdnet.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C344', 'Rees Chamberlin', '10477 Hayes Terrace', 'rchamberlinf4@xrea.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C345', 'Vachel Sibille', '17453 Twin Pines Road', 'vsibillef5@moonfruit.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C346', 'Drucill Corselles', '037 Northridge Center', 'dcorsellesf6@mapy.cz');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C347', 'Cordell Seeman', '20896 Montana Court', 'cseemanf7@goodreads.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C348', 'Davy Ruthven', '16 Sauthoff Circle', 'druthvenf8@arstechnica.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C349', 'Cris Weatherill', '020 Lake View Place', 'cweatherillf9@trellian.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C350', 'Lynnelle Greson', '93 Charing Cross Park', 'lgresonfa@storify.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C351', 'Juliet Joyce', '49036 Southridge Point', 'jjoycefb@amazonaws.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C352', 'Kaye Brannan', '83822 Butterfield Hill', 'kbrannanfc@t.co');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C353', 'Everard Sturch', '724 Anzinger Way', 'esturchfd@cargocollective.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C354', 'Elle Scaysbrook', '670 Stuart Center', 'escaysbrookfe@goo.ne.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C355', 'Murielle Scrine', '7 Packers Point', 'mscrineff@opensource.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C356', 'Tory Duetsche', '753 Vidon Park', 'tduetschefg@psu.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C357', 'Janean Coldbath', '88 Goodland Hill', 'jcoldbathfh@google.nl');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C358', 'Cristine Di Franceshci', '20 Blue Bill Park Center', 'cdifi@discuz.net');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C359', 'William Westgarth', '45 Miller Trail', 'wwestgarthfj@biglobe.ne.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C360', 'Tallou Knipe', '5 Red Cloud Junction', 'tknipefk@whitehouse.gov');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C361', 'Devan McHan', '557 Farmco Lane', 'dmchanfl@creativecommons.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C362', 'Dannye Minchinton', '202 Division Crossing', 'dminchintonfm@mac.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C363', 'Lilah Frick', '5289 Upham Point', 'lfrickfn@epa.gov');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C364', 'Johnath Suller', '9 Talisman Junction', 'jsullerfo@desdev.cn');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C365', 'Emylee Wevell', '85 Superior Drive', 'ewevellfp@timesonline.co.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C366', 'Corie Conquer', '19623 Granby Lane', 'cconquerfq@google.co.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C367', 'Vyky Emmitt', '4 Green Ridge Circle', 'vemmittfr@youtu.be');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C368', 'Daune Hearty', '26584 Porter Alley', 'dheartyfs@imgur.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C369', 'Lesly Burrow', '04 Springs Circle', 'lburrowft@statcounter.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C370', 'Minta Wones', '015 Arapahoe Way', 'mwonesfu@dot.gov');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C371', 'Stephanus Turford', '2416 Miller Junction', 'sturfordfv@rakuten.co.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C372', 'Denys Ordelt', '676 Schmedeman Terrace', 'dordeltfw@vistaprint.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C373', 'Costanza Beentjes', '744 Anzinger Crossing', 'cbeentjesfx@globo.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C374', 'Trumann todor', '6970 Division Alley', 'ttodorfy@livejournal.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C375', 'Vitoria Hopkyns', '15656 Sugar Park', 'vhopkynsfz@edublogs.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C376', 'Tyne Maghull', '7 Havey Plaza', 'tmaghullg0@blog.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C377', 'Idaline Guise', '13 Anzinger Parkway', 'iguiseg1@abc.net.au');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C378', 'Huntington Zuann', '1 Fuller Court', 'hzuanng2@sina.com.cn');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C379', 'Nicola Burgott', '852 Messerschmidt Way', 'nburgottg3@topsy.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C380', 'Mollie Kennsley', '32 Main Plaza', 'mkennsleyg4@paypal.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C381', 'Norri Sollowaye', '137 Roxbury Street', 'nsollowayeg5@si.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C382', 'Annaliese Broyd', '2 Bowman Parkway', 'abroydg6@fotki.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C383', 'Doti Parradine', '77 Hovde Center', 'dparradineg7@discuz.net');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C384', 'Ambrosio Lilbourne', '2091 2nd Point', 'alilbourneg8@independent.co.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C385', 'Lonna Jakubovitch', '460 Clyde Gallagher Trail', 'ljakubovitchg9@oaic.gov.au');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C386', 'Alfie Kilius', '93 Katie Pass', 'akiliusga@amazonaws.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C387', 'Mike Alywen', '77894 Hauk Drive', 'malywengb@arizona.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C388', 'Abigail Kenchington', '06367 Forest Dale Street', 'akenchingtongc@nifty.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C389', 'Raimondo Batsford', '94 Carioca Drive', 'rbatsfordgd@wikia.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C390', 'Kerrin Maypowder', '4134 Holy Cross Parkway', 'kmaypowderge@craigslist.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C391', 'Maudie Bilney', '68 Vidon Road', 'mbilneygf@devhub.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C392', 'Tanitansy Santori', '59907 Ridgeview Parkway', 'tsantorigg@ft.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C393', 'Cherey Chillingworth', '651 Red Cloud Junction', 'cchillingworthgh@ehow.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C394', 'Anny Sandes', '16 Havey Parkway', 'asandesgi@ycombinator.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C395', 'Francklyn Sunman', '38 Anderson Court', 'fsunmangj@cocolog-nifty.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C396', 'Niles Jakobsson', '06182 Claremont Point', 'njakobssongk@techcrunch.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C397', 'Tomasina Ilyenko', '263 School Pass', 'tilyenkogl@ucla.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C398', 'Leanor Mohammed', '869 Pankratz Court', 'lmohammedgm@reuters.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C399', 'Finlay Van de Velde', '882 Jana Parkway', 'fvangn@storify.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C400', 'Bastien Glencros', '1 Sunnyside Drive', 'bglencrosgo@flickr.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C401', 'Guenna Anthes', '8624 Sutteridge Hill', 'ganthesgp@moonfruit.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C402', 'Brandon Gyrgorwicx', '4699 Debs Alley', 'bgyrgorwicxgq@yolasite.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C403', 'Kerry Bone', '7298 Graceland Avenue', 'kbonegr@ted.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C404', 'Gerardo Blunderfield', '64163 Manitowish Drive', 'gblunderfieldgs@ycombinator.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C405', 'Sapphire Goligly', '7241 Stoughton Park', 'sgoliglygt@lulu.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C406', 'Gael Caunt', '12 Crowley Junction', 'gcauntgu@utexas.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C407', 'Concettina Grollmann', '9276 Armistice Plaza', 'cgrollmanngv@constantcontact.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C408', 'Mayer Luff', '213 Armistice Crossing', 'mluffgw@altervista.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C409', 'Georgie Tabourel', '93 Stang Circle', 'gtabourelgx@ustream.tv');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C410', 'Bendix Mordey', '74233 Tennyson Lane', 'bmordeygy@paginegialle.it');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C411', 'Franzen Ranshaw', '512 Marquette Terrace', 'franshawgz@wikimedia.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C412', 'Garold Bello', '164 Dexter Junction', 'gbelloh0@parallels.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C413', 'Lissy Irons', '1 Dayton Way', 'lironsh1@baidu.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C414', 'Rosemaria Binner', '4369 Reinke Point', 'rbinnerh2@infoseek.co.jp');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C415', 'Carey Milne', '0074 Crest Line Place', 'cmilneh3@godaddy.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C416', 'Jaime McCandless', '003 Victoria Hill', 'jmccandlessh4@webnode.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C417', 'Chandra Whittet', '16 Prairieview Drive', 'cwhitteth5@msu.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C418', 'Garrik Dmitriev', '62 Grasskamp Center', 'gdmitrievh6@mail.ru');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C419', 'Ruth Naisbitt', '418 Evergreen Place', 'rnaisbitth7@npr.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C420', 'Saundra Kenton', '2146 Hansons Crossing', 'skentonh8@deliciousdays.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C421', 'Lucienne Benit', '9808 Sloan Circle', 'lbenith9@cam.ac.uk');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C422', 'Sylas Lafontaine', '17 Surrey Pass', 'slafontaineha@edublogs.org');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C423', 'Harmony Hussell', '47 Havey Circle', 'hhussellhb@usgs.gov');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C424', 'Sebastian Belliss', '1 Village Point', 'sbellisshc@upenn.edu');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C425', 'Daryle Karpf', '465 Rockefeller Way', 'dkarpfhd@blogtalkradio.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C426', 'Aretha Espinet', '084 Barby Alley', 'aespinethe@topsy.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C427', 'Atlante Camber', '126 Del Sol Circle', 'acamberhf@miitbeian.gov.cn');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C428', 'Lane Lindblom', '413 Hazelcrest Parkway', 'llindblomhg@delicious.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C429', 'Aldric MacCaughey', '1147 Independence Trail', 'amaccaugheyhh@cnet.com');
+insert into Customer (CustomerID, Customer_Name, Customer_Address, Email_Address) values ('C430', 'Valerye Wallsam', '24382 Cambridge Lane', 'vwallsamhi@deliciousdays.com');
+
+Use ieinstruments;
+Create Table Supplier
+(
+SupplierID varchar(3),
+Supplier_Name varchar(50),
+Supplier_Address char(100),
+Primary Key (SupplierID)
+);
+
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S01', 'TC Electronics', '2004 Sage Trail');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S02', 'Gibby Amesbury', '491 Gulseth Alley');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S03', 'Roland', '022 Lakewood Gardens Park');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S04', 'Lefty Bissiker', '6 Artisan Point');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S05', 'Ozark', '19 David Alley');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S06', 'Behringer', '8124 Buena Vista Park');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S07', 'Ebony Poutress', '11119 Autumn Leaf Court');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S08', 'Fender', '53 Brown Lane');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S09', 'Raye Asquith', '28998 Hallows Hill');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S10', 'Boss', '421 Elmside Circle');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S11', 'Justine Vernazza', '78 Division Trail');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S12', 'Marshall', '6 Autumn Leaf Crossing');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S13', 'Emlen Mathe', '196 Lake View Crossing');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S14', 'Laney', '6571 Blaine Circle');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S15', 'Teri Mawditt', '0956 Schlimgen Place');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S16', 'BC Rich', '30 Crescent Oaks Drive');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S17', 'Gaylene Earengey', '896 Express Lane');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S18', 'Somerset Flinders', '221 Lunder Trail');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S19', 'Ibanez', '13 Ryan Lane');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S20', 'Keenan Heaysman', '3250 Ramsey Court');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S21', 'Paddy Phillipp', '2 Arrowood Point');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S22', 'Hendrik Linder', '2898 Crest Line Circle');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S23', 'Georgette Jordine', '39 Bonner Street');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S24', 'Killian Twinberrow', '80259 Melvin Park');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S25', 'Ive Le Fleming', '12 Badeau Crossing');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S26', 'Mesa-Boogie', '59 Londonderry Center');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S27', 'Augustina Girt', '79 Norway Maple Lane');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S28', 'Allix Neal', '1 Bay Plaza');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S29', 'Otis Hart', '1572 Claremont Trail');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S30', 'Frankie Prayer', '11512 East Road');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S31', 'Bendite Waliszek', '7796 Center Park');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S32', 'Marlon Dooland', '0 Warner Avenue');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S33', 'Annabela Lorenzini', '337 Brown Alley');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S34', 'Tripp Jedrzejewski', '0605 Pawling Plaza');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S35', 'McBrides', '502 Tennyson Alley');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S36', 'Meta Selbach', '451 Starling Plaza');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S37', 'A.Carvalho', '5 Kropf Crossing');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S38', 'Arnie Hancorn', '51 Dakota Plaza');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S39', 'Bax Tuffell', '5 Upham Plaza');
+insert into Supplier (SupplierID, Supplier_Name, Supplier_Address) values ('S40', 'Jarrad Bisco', '35984 Grayhawk Circle');
+
+Use ieinstruments;
+Create Table Product
+(
+ProductID varchar(4),
+Product_Name varchar(100),
+Product_Unit_Cost numeric(6),
+Product_Sale_Price numeric(6),
+SupplierID varchar(3),
+Primary Key (ProductID),
+Foreign Key (SupplierID) references Supplier(SupplierID)
+);
+
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P001', 'Zouk Bouzouki', 359, 450, 'S01');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P002', 'Tamil Amp', 449, 650, 'S02');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P003', 'Antwan Guitar G35', 354, 500, 'S03');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P004', 'Zoom-Box', 31, 60, 'S04');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P005', 'Konka Mandolin E5-1A', 437, 600, 'S05');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P006', 'Jaysum Custom A43 Bouzouki', 1000, 1306, 'S06');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P007', 'Harrison Fiddle Tweed', 1450, 2450, 'S07');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P008', 'Mesa-Boogie Amp', 1000, 1300, 'S08');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P009', 'Bitchip Pedal', 130, 200, 'S09');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P010', 'Domainer Guitar', 928, 1100, 'S10');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P011', 'Transcof Amp', 630, 750, 'S17');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P012', 'Viva Fiddle RT4', 1200, 1450, 'S15');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P013', 'Greenlam Custom Mandolin', 1800, 2100, 'S13');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P014', 'Greenlam Custom Bouzouki', 1500, 1750, 'S11');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P015', 'Redhold Custom Acoustic', 720, 859, 'S12');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P016', 'Treeflex Pedal', 61, 90, 'S14');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P017', 'Y-find Bouzouki', 716, 840, 'S16');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P018', 'Bamity Farhold A34 Fiddle', 1246, 1400, 'S25');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P019', 'Bitchip Acoustic Amp', 1231, 1400, 'S20');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P020', 'Transcof Bousouki', 407, 490, 'S24');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P021', 'Tres-Zap Piezo Pickup', 90, 130, 'S18');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P022', 'Lotlux Tin Whistle', 40, 60, 'S19');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P023', 'Voyatouch Fiddle', 900, 1050, 'S17');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P024', 'Flowdesk Fiddle', 670, 800, 'S21');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P025', 'Greenlam Custom Amp', 890, 1010, 'S24');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P026', 'Biodex Bass', 800, 1000, 'S22');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P027', 'Flowdesk Bass Amp', 871, 990, 'S24');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P028', 'Bitwolf Beginner Bouzouki', 250, 300, 'S23');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P029', 'Pannier Fiddle Premier', 1300, 1600, 'S31');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P030', 'Zoolab Mandolin', 1343, 1600, 'S34');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P031', 'Fixflex Mandolin', 1179, 1302, 'S37');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P032', 'Y-Solowarm Custom A23 Firefly Electric Guitar', 874, 1102, 'S36');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P033', 'Konklab Premier Electric Guitar DT-6', 458, 550, 'S26');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P034', 'Tempo Electic Guitar', 971, 1200, 'S12');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P035', 'Ziljdan Cymbal', 100, 125, 'S21');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P036', 'Ziljdan Hi-Hat', 110, 130, 'S21');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P037', 'Zontrax Bass Drum', 210, 310, 'S27');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P038', 'Y-find Tin Whistle', 180, 240, 'S34');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P039', 'It-It Snare Drum', 140, 180, 'S31');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P040', 'Fintone Complete Drum Set', 400, 500, 'S35');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P041', 'Hatity Bouzouki', 1100, 1300, 'S35');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P042', 'Voltsillam Drum Set', 800, 940, 'S14');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P043', 'Zontrax Bass Amp', 640, 800, 'S20');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P044', 'Sonsing Mandolin', 1172, 1300, 'S34');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P045', 'Holdlamis Fiddle', 1242, 1400, 'S31');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P046', 'Sonair Beginner Fiddle', 240, 320, 'S39');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P047', 'Trippledex Fiddle', 440, 560, 'S39');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P048', 'Sonsing Cymbal', 210, 279, 'S38');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P049', 'Tiresome Flex Pre-Amp Pedal', 200, 230, 'S29');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P050', 'Uyi-Tui Amp E-tube 4', 500, 600, 'S05');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P051', 'Sub-Ex Amp', 800, 920, 'S23');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P052', 'Tresom Recorder', 80, 120, 'S29');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P053', 'Fix San Hi-Hat', 130, 160, 'S07');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P054', 'Gembucket Lead', 4, 6, 'S40');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P055', 'Ventosanzap pick', 0.50, 1, 'S02');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P056', 'Flowdesk guitar strings', 10, 15, 'S01');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P057', 'Andalax Bouzouki Wound Strings', 12, 17, 'S38');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P058', 'Fintone Fiddle Strings', 20, 26, 'S12');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P059', 'Tempsoft Fiddle Strings', 30, 42, 'S23');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P060', 'Mat Lam Tam Preimer Guitar Strings', 18, 23, 'S24');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P061', 'Alpha Bouzouki Strings', 15, 20, 'S36');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P062', 'Rank-Rank FX Processor', 330, 400, 'S07');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P063', 'Zaam-Dox FX Processor', 580, 700, 'S39');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P064', 'Laney Cube100x', 1200, 1465, 'S38');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P065', 'Hatity Cube50', 1110, 1280, 'S31');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P066', 'Opela Custom Electric Guitar', 1300, 1506, 'S20');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P067', 'PRS Custom Electric Guitar', 2000, 2540, 'S28');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P068', 'Temp A34 Fiddle Amp', 900, 1100, 'S18');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P069', 'Andalax Piezo Pick-Up', 208, 260, 'S32');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P070', 'Up-Tup Bodhran', 60, 90, 'S19');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P071', 'Vagram Custom Wound Bodhran', 300, 400, 'S37');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P072', 'Tyson Custom Wound Bodhran', 500, 600, 'S12');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P073', 'Zontrax Recorder 3x', 300, 430, 'S26');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P074', 'Flowdesk Flute Premier', 914, 1100, 'S17');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P075', 'Voltsillam Saxophone', 735, 900, 'S36');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P076', 'Biodex Keyboard', 813, 1000, 'S33');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P077', 'Gembucket Keyboard', 284, 340, 'S30');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P078', 'Fintone Keyboard', 273, 360, 'S23');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P079', 'Andalax Cabinet Speaker', 287, 330, 'S29');
+insert into Product (ProductID, Product_Name, Product_Unit_Cost, Product_Sale_Price, SupplierID) values ('P080', 'Ventosanzap Cabinet Speaker', 350, 551, 'S22');
+
+Use ieinstruments;
+Create Table Stock
+(
+StockID varchar(4),
+ProductID varchar(4),
+Product_Quantity numeric (2),
+SupplierID varchar(3),
+StockDate Date,
+Primary Key (StockID),
+Foreign Key (SupplierID) references Supplier(SupplierID),
+foreign key (ProductID) references Product(ProductID)
+);
+
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S001', 'P001', 1, 'S01', '2020/01/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S002', 'P012', 9, 'S02', '2020/01/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S026', 'P010', 3, 'S09', '2020/01/03');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S014', 'P014', 1, 'S10', '2020/01/03');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S015', 'P015', 1, 'S16', '2020/01/03');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S016', 'P016', 1, 'S15', '2020/01/02');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S017', 'P017', 9, 'S14', '2020/01/02');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S018', 'P018', 2, 'S13', '2020/01/04');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S019', 'P019', 2, 'S12', '2020/01/05');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S020', 'P020', 1, 'S11', '2020/01/04');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S021', 'P021', 2, 'S17', '2020/01/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S023', 'P023', 2, 'S20', '2020/01/11');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S024', 'P024', 1, 'S21', '2020/01/11');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S038', 'P022', 3, 'S19', '2020/01/11');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S029', 'P026', 5, 'S19', '2020/01/11');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S025', 'P031', 10, 'S18', '2020/01/21');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S027', 'P025', 1, 'S30', '2020/01/21');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S028', 'P027', 1, 'S32', '2020/01/21');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S036', 'P028', 1, 'S31', '2020/01/29');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S030', 'P029', 1, 'S34', '2020/01/28');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S031', 'P030', 1, 'S32', '2020/01/21');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S032', 'P031', 1, 'S35', '2020/02/14');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S033', 'P032', 1, 'S40', '2020/02/07');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S034', 'P033', 1, 'S39', '2020/02/07');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S035', 'P034', 2, 'S38', '2020/02/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S046', 'P031', 1, 'S29', '2020/02/06');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S047', 'P041', 1, 'S30', '2020/02/06');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S048', 'P046', 7, 'S31', '2020/02/06');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S049', 'P047', 2, 'S28', '2020/02/09');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S050', 'P048', 3, 'S29', '2020/02/09');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S051', 'P049', 1, 'S30', '2020/02/09');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S052', 'P050', 3, 'S31', '2020/02/09');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S053', 'P051', 2, 'S30', '2020/02/27');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S054', 'P052', 1, 'S31', '2020/02/27');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S055', 'P053', 1, 'S35', '2020/02/27');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S056', 'P054', 1, 'S34', '2020/03/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S057', 'P055', 1, 'S03', '2020/03/04');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S058', 'P056', 2, 'S39', '2020/03/05');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S059', 'P057', 1, 'S23', '2020/03/04');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S060', 'P058', 2, 'S31', '2020/03/04');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S062', 'P059', 2, 'S37', '2020/03/14');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S061', 'P060', 3, 'S24', '2020/03/14');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S064', 'P061', 1, 'S25', '2020/03/14');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S063', 'P062', 1, 'S26', '2020/03/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S065', 'P063', 1, 'S14', '2020/03/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S066', 'P064', 3, 'S30', '2020/03/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S067', 'P065', 1, 'S39', '2020/03/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S068', 'P066', 1, 'S37', '2020/03/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S069', 'P067', 2, 'S40', '2020/03/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S070', 'P068', 1, 'S31', '2020/03/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S071', 'P069', 1, 'S33', '2020/03/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S079', 'P077', 1, 'S19', '2020/04/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S080', 'P078', 2, 'S35', '2020/04/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S081', 'P079', 1, 'S29', '2020/04/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S082', 'P080', 1, 'S27', '2020/04/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S083', 'P001', 2, 'S01', '2020/04/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S084', 'P002', 1, 'S02', '2020/04/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S085', 'P003', 1, 'S03', '2020/04/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S086', 'P004', 3, 'S04', '2020/02/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S087', 'P005', 3, 'S04', '2020/01/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S088', 'P006', 1, 'S03', '2020/04/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S089', 'P007', 1, 'S02', '2020/04/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S090', 'P009', 2, 'S06', '2020/04/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S102', 'P019', 2, 'S12', '2020/04/05');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S103', 'P020', 1, 'S11', '2020/04/04');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S104', 'P021', 1, 'S17', '2020/04/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S105', 'P023', 1, 'S20', '2020/02/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S106', 'P024', 1, 'S21', '2020/04/11');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S107', 'P022', 1, 'S19', '2020/04/11');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S108', 'P026', 1, 'S19', '2020/04/11');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S109', 'P031', 1, 'S18', '2020/02/21');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S110', 'P025', 1, 'S30', '2020/04/21');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S111', 'P027', 3, 'S32', '2020/04/21');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S112', 'P028', 1, 'S31', '2020/04/29');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S113', 'P029', 1, 'S34', '2020/04/28');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S114', 'P030', 1, 'S32', '2020/04/21');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S115', 'P031', 1, 'S35', '2020/04/14');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S116', 'P032', 1, 'S40', '2020/04/07');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S117', 'P033', 1, 'S39', '2020/04/07');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S118', 'P034', 1, 'S38', '2020/05/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S119', 'P035', 9, 'S32', '2020/01/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S120', 'P036', 1, 'S10', '2020/05/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S121', 'P037', 9, 'S19', '2020/05/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S122', 'P038', 1, 'S23', '2020/05/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S123', 'P039', 2, 'S22', '2020/05/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S124', 'P040', 3, 'S24', '2020/05/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S125', 'P042', 1, 'S25', '2020/05/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S126', 'P041', 1, 'S26', '2020/05/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S127', 'P043', 3, 'S28', '2020/05/04');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S135', 'P051', 1, 'S30', '2020/05/27');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S136', 'P052', 1, 'S31', '2020/05/27');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S137', 'P053', 1, 'S35', '2020/05/27');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S138', 'P054', 2, 'S34', '2020/06/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S139', 'P055', 1, 'S03', '2020/06/04');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S140', 'P056', 1, 'S39', '2020/06/05');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S141', 'P057', 1, 'S23', '2020/06/04');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S142', 'P058', 2, 'S31', '2020/06/04');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S143', 'P059', 1, 'S37', '2020/06/14');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S144', 'P060', 2, 'S24', '2020/06/14');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S145', 'P061', 1, 'S25', '2020/06/14');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S146', 'P062', 1, 'S26', '2020/06/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S147', 'P063', 1, 'S14', '2020/06/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S148', 'P044', 1, 'S30', '2020/06/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S149', 'P065', 1, 'S39', '2020/06/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S150', 'P066', 1, 'S37', '2020/06/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S151', 'P067', 2, 'S40', '2020/06/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S152', 'P068', 1, 'S31', '2020/06/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S153', 'P069', 1, 'S33', '2020/06/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S154', 'P070', 1, 'S34', '2020/06/21');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S155', 'P071', 6, 'S28', '2020/01/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S156', 'P073', 1, 'S35', '2020/06/21');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S157', 'P072', 6, 'S36', '2020/06/21');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S158', 'P074', 1, 'S25', '2020/06/21');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S159', 'P075', 1, 'S24', '2020/06/28');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S160', 'P076', 1, 'S10', '2020/07/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S161', 'P077', 1, 'S19', '2020/07/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S162', 'P078', 1, 'S35', '2020/07/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S163', 'P079', 1, 'S29', '2020/07/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S164', 'P080', 1, 'S27', '2020/07/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S165', 'P030', 1, 'S32', '2020/03/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S166', 'P031', 2, 'S35', '2020/07/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S167', 'P032', 1, 'S40', '2020/07/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S168', 'P045', 1, 'S27', '2020/07/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S169', 'P031', 1, 'S29', '2020/07/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S170', 'P041', 1, 'S30', '2020/07/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S180', 'P055', 1, 'S03', '2020/07/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S181', 'P056', 1, 'S39', '2020/07/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S182', 'P057', 1, 'S23', '2020/07/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S183', 'P058', 1, 'S31', '2020/07/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S184', 'P059', 1, 'S37', '2020/07/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S185', 'P008', 3, 'S24', '2020/07/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S186', 'P061', 1, 'S25', '2020/07/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S192', 'P067', 1, 'S40', '2020/07/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S193', 'P068', 1, 'S31', '2020/07/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S199', 'P074', 1, 'S25', '2020/07/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S200', 'P075', 1, 'S24', '2020/07/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S201', 'P076', 1, 'S10', '2020/07/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S202', 'P077', 1, 'S19', '2020/07/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S203', 'P078', 1, 'S35', '2020/07/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S204', 'P079', 1, 'S29', '2020/07/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S205', 'P080', 1, 'S27', '2020/07/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S206', 'P001', 1, 'S32', '2020/08/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S207', 'P003', 1, 'S35', '2020/08/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S208', 'P002', 1, 'S40', '2020/08/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S209', 'P024', 1, 'S27', '2020/08/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S210', 'P031', 1, 'S29', '2020/08/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S211', 'P021', 1, 'S30', '2020/08/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S212', 'P046', 1, 'S31', '2020/08/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S213', 'P027', 1, 'S28', '2020/08/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S214', 'P038', 1, 'S29', '2020/08/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S215', 'P079', 1, 'S30', '2020/08/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S232', 'P066', 1, 'S37', '2020/08/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S233', 'P013', 6, 'S40', '2020/01/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S234', 'P068', 1, 'S31', '2020/08/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S235', 'P069', 1, 'S33', '2020/08/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S236', 'P007', 1, 'S34', '2020/08/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S245', 'P079', 1, 'S29', '2020/08/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S246', 'P080', 1, 'S17', '2020/08/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S256', 'P001', 1, 'S32', '2020/09/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S257', 'P007', 1, 'S34', '2020/09/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S258', 'P042', 1, 'S28', '2020/09/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S259', 'P046', 1, 'S35', '2020/09/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S260', 'P022', 1, 'S06', '2020/09/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S247', 'P073', 1, 'S35', '2020/09/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S248', 'P032', 1, 'S36', '2020/09/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S249', 'P044', 1, 'S15', '2020/09/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S250', 'P055', 1, 'S24', '2020/09/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S251', 'P066', 2, 'S10', '2020/09/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S252', 'P077', 1, 'S19', '2020/09/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S268', 'P001', 2, 'S32', '2020/10/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S269', 'P007', 1, 'S34', '2020/10/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S270', 'P042', 1, 'S28', '2020/10/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S271', 'P046', 1, 'S35', '2020/10/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S272', 'P022', 1, 'S36', '2020/10/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S273', 'P073', 1, 'S35', '2020/10/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S274', 'P032', 1, 'S36', '2020/10/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S275', 'P044', 1, 'S25', '2020/10/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S276', 'P055', 1, 'S24', '2020/10/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S277', 'P066', 2, 'S10', '2020/10/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S278', 'P077', 1, 'S19', '2020/10/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S279', 'P018', 1, 'S35', '2020/10/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S280', 'P021', 1, 'S29', '2020/10/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S281', 'P080', 1, 'S17', '2020/10/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S282', 'P075', 1, 'S24', '2020/10/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S283', 'P076', 2, 'S10', '2020/10/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S284', 'P067', 1, 'S19', '2020/10/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S285', 'P032', 2, 'S25', '2020/10/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S286', 'P079', 1, 'S29', '2020/10/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S287', 'P045', 1, 'S40', '2020/10/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S288', 'P011', 7, 'S32', '2020/11/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S289', 'P003', 1, 'S35', '2020/11/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S290', 'P002', 1, 'S40', '2020/11/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S291', 'P024', 1, 'S37', '2020/11/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S292', 'P031', 1, 'S29', '2020/11/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S293', 'P021', 1, 'S30', '2020/11/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S294', 'P046', 1, 'S11', '2020/11/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S295', 'P027', 1, 'S28', '2020/11/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S296', 'P038', 1, 'S09', '2020/11/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S297', 'P079', 1, 'S30', '2020/11/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S298', 'P006', 1, 'S31', '2020/11/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S299', 'P007', 1, 'S30', '2020/11/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S300', 'P014', 1, 'S31', '2020/11/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S301', 'P016', 1, 'S35', '2020/11/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S302', 'P026', 1, 'S34', '2020/11/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S303', 'P035', 1, 'S03', '2020/11/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S304', 'P041', 1, 'S39', '2020/01/04');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S305', 'P057', 1, 'S23', '2020/11/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S306', 'P038', 1, 'S31', '2020/11/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S307', 'P029', 1, 'S37', '2020/11/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S308', 'P042', 1, 'S24', '2020/11/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S309', 'P047', 1, 'S25', '2020/11/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S310', 'P062', 1, 'S16', '2020/11/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S311', 'P063', 1, 'S14', '2020/11/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S312', 'P044', 1, 'S30', '2020/11/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S313', 'P065', 1, 'S39', '2020/11/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S314', 'P066', 1, 'S37', '2020/11/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S315', 'P013', 1, 'S40', '2020/11/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S316', 'P068', 1, 'S31', '2020/11/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S317', 'P069', 1, 'S33', '2020/11/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S318', 'P007', 1, 'S34', '2020/11/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S319', 'P042', 1, 'S28', '2020/11/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S320', 'P046', 1, 'S35', '2020/11/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S321', 'P072', 1, 'S36', '2020/11/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S322', 'P074', 1, 'S25', '2020/11/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S323', 'P075', 1, 'S24', '2020/11/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S324', 'P076', 2, 'S10', '2020/11/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S325', 'P077', 1, 'S09', '2020/11/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S326', 'P078', 2, 'S35', '2020/11/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S327', 'P079', 1, 'S29', '2020/11/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S328', 'P080', 3, 'S27', '2020/11/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S330', 'P001', 1, 'S02', '2020/12/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S331', 'P003', 2, 'S35', '2020/12/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S332', 'P002', 1, 'S40', '2020/12/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S333', 'P046', 1, 'S31', '2020/12/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S334', 'P027', 2, 'S28', '2020/12/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S335', 'P038', 2, 'S29', '2020/12/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S336', 'P079', 1, 'S30', '2020/12/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S337', 'P006', 1, 'S01', '2020/12/01');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S338', 'P007', 1, 'S30', '2020/12/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S339', 'P014', 1, 'S31', '2020/12/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S340', 'P042', 1, 'S24', '2020/12/08');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S341', 'P047', 1, 'S25', '2020/12/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S342', 'P062', 1, 'S26', '2020/12/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S343', 'P063', 1, 'S14', '2020/12/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S344', 'P044', 1, 'S30', '2020/12/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S345', 'P074', 1, 'S25', '2020/12/15');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S346', 'P075', 1, 'S24', '2020/12/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S347', 'P076', 1, 'S10', '2020/12/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S348', 'P077', 1, 'S19', '2020/12/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S349', 'P078', 2, 'S35', '2020/01/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S350', 'P079', 1, 'S29', '2020/12/23');
+insert into Stock (StockID, ProductID, Product_Quantity, SupplierID, StockDate) values ('S351', 'P080', 1, 'S27', '2020/12/23');
+
+
+Use ieinstruments;
+Create Table Orders
+(
+OrderID varchar(5),
+CustomerID varchar(4),
+Billing_Address char(100),
+Sale_Value numeric (6),
+ProductID varchar(4),
+Product_Quantity_Purchased numeric(1),
+StockID varchar(4),
+EmployeeID char(3),
+OrderDate Date,
+Primary Key (OrderID),
+Foreign Key (StockID) references Stock(StockID),
+Foreign Key (CustomerID) references Customer(CustomerID),
+Foreign Key (EmployeeID) references Employee(EmployeeID),
+Foreign Key (ProductID) references Product(ProductID)
+);
+
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O156', 'C001', '3000 Mayer Street', 450, 'P001', 1, 'S001', 'AR', '2020/10/03');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O877', 'C099', '7 Kinsman Alley', 130, 'P021', 1, 'S021', 'ThD', '2020/01/29');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O169', 'C082', '22706 Longview Road', 600, 'P072', 1, 'S157', 'FC', '2020/11/14');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O984', 'C181', '0231 Dwight Hill', 15, 'P056', 1, 'S058', 'IV', '2020/04/22');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O192', 'C286', '48004 Hazelcrest Crossing', 60,'P022', 1, 'S038', 'BT', '2020/10/09');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O189', 'C342', '188 Mockingbird Street', 1000, 'P026', 2, 'S029', 'BT', '2020/08/29');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O590', 'C298', '2 Eggendart Drive', 1300, 'P041', 1, 'S047', 'SH', '2020/08/01');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O960', 'C175', '55 Scoville Junction', 125, 'P035', 1, 'S119', 'EW', '2020/08/14');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O124', 'C057', '16 Red Cloud Crossing', 800, 'P025', 1, 'S027', 'EW', '2020/02/12');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O533', 'C283', '11 Shoshone Circle', 310, 'P037', 1, 'S121', 'AR', '2020/06/05');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O812', 'C258', '04876 Petterle Crossing', 1200, 'P034', 1, 'S035', 'TD', '2020/03/05');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O624', 'C178', '2200 Golf View Junction', 920, 'P051', 1, 'S053', 'LM', '2020/03/17');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O445', 'C173', '8801 Spaight Road', 700, 'P063', 1, 'S065', 'WZ', '2020/05/13');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O798', 'C097', '77 Oxford Park', 2100, 'P013', 1, 'S233', 'MR', '2020/12/04');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O981', 'C007', '10 Pierstorff Road', 750, 'P011', 1, 'S288', 'EC', '2020/09/03');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O293', 'C035', '83040 Graceland Parkway', 360, 'P078', 1, 'S080', 'DE', '2020/03/02');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O467', 'C270', '4702 Green Ridge Crossing', 1010, 'P025', 1, 'S027','EC', '2020/01/07');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O444', 'C363', '0154 Little Fleur Drive', 600, 'P005', 1, 'S087', 'AR', '2020/03/12');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O207', 'C106', '96096 Crescent Oaks Street', 310, 'P037', 1, 'S121', 'ThD', '2020/04/20');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O739', 'C051', '21667 Drewry Drive', 60, 'P004', 1, 'S086', 'FC', '2020/09/06');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O925', 'C139', '01874 Mitchell Hill', 600, 'P072', 1, 'S157', 'TD', '2020/03/21');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O104', 'C236', '36 Lillian Pass', 800, 'P043', 1, 'S127', 'FC', '2020/04/15');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O071', 'C141', '0126 Waywood Avenue', 1300, 'P008', 1, 'S185', 'EW', '2020/11/19');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O659', 'C255', '20320 Brentwood Street', 1100, 'P068', 3, 'S193', 'AR', '2020/01/13');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O632', 'C183', '8 Elka Pass', 42, 'P059', 1, 'S062', 'TD', '2020/07/04');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O065', 'C114', '2134 Daystar Street', 990, 'P027', 1, 'S028', 'MR', '2020/03/20');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O581', 'C115', '150 Stuart Center', 840, 'P017', 1, 'S017', 'DE', '2020/07/10');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O042', 'C193', '8 Garrison Terrace', 560, 'P047', 1, 'S049', 'AR', '2020/03/06');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O704', 'C242', '412 Miller Way', 840, 'P017', 1, 'S017', 'AR', '2020/05/05');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O304', 'C297', '6 Hoffman Road', 1400, 'P018', 1, 'S018', 'MR', '2020/05/30');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O262', 'C143', '90879 Towne Trail', 125, 'P035', 1, 'S119', 'DE', '2020/12/26');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O620', 'C222', '878 Rutledge Road', 1100, 'P010', 1, 'S026', 'EC', '2020/11/17');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O415', 'C391', '12 Buhler Plaza', 1000, 'P026', 1, 'S029', 'AR', '2020/12/12');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O130', 'C149', '90 Meadow Valley Junction', 1050, 'P023', 1, 'S023', 'EW', '2020/02/12');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O213', 'C139', '29743 Little Fleur Plaza', 750, 'P011', 1, 'S288', 'LM', '2020/03/21');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O008', 'C175', '23873 Brown Center', 1465, 'P064', 1, 'S066', 'LM', '2020/03/22');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O347', 'C192', '4 Aberg Place', 26, 'P058', 2, 'S060', 'TD', '2020/08/26');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O434', 'C183', '1463 Sauthoff Alley', 17, 'P057', 1, 'S059', 'MR', '2020/05/20');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O053', 'C039', '712 Ridgeview Road', 1450, 'P012', 1, 'S002', 'EC', '2020/07/03');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O318', 'C330', '7328 Tony Court', 60, 'P022', 1, 'S038', 'BT', '2020/09/02');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O223', 'C248', '1378 Blue Bill Park Drive', 840, 'P017', 1, 'S017', 'LM', '2020/03/24');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O694', 'C105', '30795 Browning Hill', 40, 'P061', 2, 'S064', 'IV', '2020/10/19');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O998', 'C283', '6470 Clemons Road', 1, 'P055', 1, 'S057', 'AR', '2020/08/11');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O896', 'C151', '020 Redwing Street', 1450, 'P012', 1, 'S002', 'MR', '2020/06/30');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O123', 'C219', '34041 American Crossing', 400, 'P071', 1, 'S155', 'FC', '2020/01/01');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O275', 'C329', '5562 Spenser Avenue', 600, 'P050', 1, 'S052', 'EC', '2020/04/11');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O995', 'C355', '4655 Atwood Street', 360, 'P078', 1, 'S162', 'AR', '2020/02/20');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O637', 'C169', '4193 Macpherson Road', 23, 'P060', 1, 'S061', 'LM', '2020/07/22');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O764', 'C400', '957 Heffernan Court', 320, 'P046', 1, 'S259', 'LM', '2020/11/28');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O638', 'C247', '15 Holy Cross Pass', 125, 'P035', 1, 'S119', 'AR', '2020/01/03');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O949', 'C093', '4 Surrey Pass', 310, 'P037', 1, 'S121', 'IV', '2020/04/06');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O625', 'C263', '2 Dapin Point', 1450, 'P012', 1, 'S002', 'FC', '2020/01/21');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O424', 'C113', '3 Lillian Parkway', 500, 'P040', 1, 'S124', 'FC', '2020/01/07');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O570', 'C038', '04066 East Drive', 400, 'P071', 1, 'S155', 'FC', '2020/07/10');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O937', 'C009', '41 Mariners Cove Street', 130, 'P021', 1, 'S021', 'AR', '2020/09/07');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O717', 'C088', '285 Pierstorff Avenue', 1302, 'P031', 9, 'S025', 'LM', '2020/12/26');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O175', 'C345', '32021 Brown Court', 2100, 'P013', 1, 'S233', 'ZH', '2020/03/13');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O300', 'C081', '3000 Mayer Street', 450, 'P001', 1, 'S206', 'AR', '2020/10/04');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O301', 'C079', '7 Kinsman Alley', 130, 'P021', 1, 'S280', 'ThD', '2020/11/29');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O302', 'C012', '22706 Longview Road', 600, 'P072', 1, 'S157', 'FC', '2020/02/14');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O303', 'C101', '0231 Dwight Hill', 15, 'P056', 1, 'S058', 'IV', '2020/05/22');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O504', 'C006', '48004 Hazelcrest Crossing', 60, 'P022', 1, 'S038', 'BT', '2020/01/09');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O305', 'C143', '188 Mockingbird Street', 1000, 'P026', 1, 'S029', 'BT', '2020/07/29');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O307', 'C248', '2 Eggendart Drive', 1300, 'P041', 1, 'S126', 'SH', '2020/06/01');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O308', 'C075', '55 Scoville Junction', 125, 'P035', 1, 'S119', 'EW', '2020/02/14');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O309', 'C054', '16 Red Cloud Crossing', 800, 'P025', 1, 'S027', 'EW', '2020/02/12');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O310', 'C281', '11 Shoshone Circle', 310, 'P037', 1, 'S121', 'AR', '2020/04/05');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O311', 'C287', '04876 Petterle Crossing', 1200, 'P034', 1, 'S035', 'TD', '2020/03/25');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O312', 'C211', '2200 Golf View Junction', 920, 'P051', 1, 'S053', 'LM', '2020/03/11');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O313', 'C138', '8801 Spaight Road', 700, 'P063', 1, 'S147', 'WZ', '2020/09/13');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O314', 'C037', '77 Oxford Park', 2100, 'P013', 1, 'S233', 'MR', '2020/12/14');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O315', 'C057', '10 Pierstorff Road', 750, 'P011', 1, 'S288', 'EC', '2020/09/13');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O316', 'C175', '83040 Graceland Parkway', 360, 'P078', 1, 'S162', 'DE', '2020/05/12');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O317', 'C290', '4702 Green Ridge Crossing', 1010, 'P025', 1, 'S027', 'EC', '2020/02/01');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O528', 'C233', '0154 Little Fleur Drive', 600, 'P005', 1, 'S087', 'AR', '2020/12/19');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O319', 'C100', '96096 Crescent Oaks Street', 310, 'P037', 1, 'S121', 'ThD', '2020/01/20');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O320', 'C050', '21667 Drewry Drive', 60, 'P004', 1, 'S086', 'FC', '2020/01/06');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O321', 'C130', '01874 Mitchell Hill', 600, 'P072', 1, 'S157', 'TD', '2020/10/21');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O322', 'C230', '36 Lillian Pass', 800, 'P043', 1, 'S127', 'FC', '2020/11/15');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O323', 'C140', '0126 Waywood Avenue', 1300, 'P008', 1, 'S185', 'EW', '2020/11/19');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O325', 'C103', '8 Elka Pass', 42, 'P059', 1, 'S184', 'TD', '2020/12/04');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O326', 'C110', '2134 Daystar Street', 990, 'P027', 3, 'S111', 'MR', '2020/11/20');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O327', 'C101', '150 Stuart Center', 840, 'P017', 1, 'S017', 'DE', '2020/11/10');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O328', 'C113', '8 Garrison Terrace', 560, 'P047', 1, 'S049', 'AR', '2020/11/06');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O329', 'C272', '412 Miller Way', 840, 'P017', 1, 'S017', 'AR', '2020/11/05');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O330', 'C207', '6 Hoffman Road', 1400, 'P018', 1, 'S018', 'MR', '2020/11/30');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O331', 'C043', '90879 Towne Trail', 125, 'P035', 1, 'S119', 'DE', '2020/12/23');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O332', 'C292', '878 Rutledge Road', 1100, 'P010', 2, 'S026', 'EC', '2020/11/11');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O333', 'C321', '12 Buhler Plaza', 1000, 'P026', 1, 'S029', 'AR', '2020/12/14');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O334', 'C105', '90 Meadow Valley Junction', 1050, 'P023', 1, 'S105', 'EW', '2020/02/03');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O335', 'C189', '29743 Little Fleur Plaza', 750, 'P011', 1, 'S288', 'LM', '2020/03/12');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O336', 'C155', '23873 Brown Center', 1465, 'P064', 1, 'S066', 'LM', '2020/03/29');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O337', 'C042', '4 Aberg Place', 26, 'P058', 1, 'S142', 'TD', '2020/04/26');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O338', 'C043', '1463 Sauthoff Alley', 17, 'P057', 1, 'S141', 'MR', '2020/10/20');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O339', 'C006', '712 Ridgeview Road', 1450, 'P012', 1, 'S002', 'EC', '2020/11/03');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O340', 'C140', '7328 Tony Court', 60, 'P022', 1, 'S107', 'BT', '2020/11/02');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O341', 'C143', '1378 Blue Bill Park Drive', 840, 'P017', 1, 'S017', 'LM', '2020/11/24');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O342', 'C191', '30795 Browning Hill', 20, 'P061', 1, 'S145', 'IV', '2020/11/19');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O343', 'C186', '6470 Clemons Road', 1, 'P055', 1, 'S139', 'AR', '2020/11/11');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O344', 'C141', '020 Redwing Street', 1450, 'P012', 1, 'S002', 'MR', '2020/11/30');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O345', 'C159', '34041 American Crossing', 400, 'P071', 1, 'S155', 'FC', '2020/12/01');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O346', 'C029', '5562 Spenser Avenue', 600, 'P050', 1, 'S052', 'EC', '2020/11/11');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O617', 'C305', '4655 Atwood Street', 360, 'P078', 1, 'S326', 'AR', '2020/12/20');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O348', 'C160', '4193 Macpherson Road', 23, 'P060', 2, 'S061', 'LM', '2020/12/22');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O349', 'C010', '957 Heffernan Court', 320, 'P046', 7, 'S048', 'LM', '2020/12/28');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O350', 'C287', '15 Holy Cross Pass', 125, 'P035', 1, 'S119', 'AR', '2020/12/03');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O351', 'C194', '4 Surrey Pass', 310, 'P037', 1, 'S121', 'IV', '2020/11/06');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O352', 'C261', '2 Dapin Point', 1450, 'P012', 1, 'S002', 'FC', '2020/10/21');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O353', 'C118', '3 Lillian Parkway', 500, 'P040', 1, 'S124', 'FC', '2020/09/07');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O354', 'C078', '04066 East Drive', 400, 'P071', 1, 'S155', 'FC', '2020/03/20');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O355', 'C029', '41 Mariners Cove Street', 130, 'P021', 1, 'S293', 'AR', '2020/11/19');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O556', 'C311', '140 Corscot Terrace', 1600, 'P030', 1, 'S114', 'FC', '2020/05/11');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O557', 'C318', '285 Pierstorff Avenue', 1302, 'P031', 1, 'S046', 'LM', '2020/10/26');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O558', 'C135', '32021 Brown Court', 2100, 'P013', 1, 'S233', 'ZH', '2020/11/13');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O559', 'C001', '3000 Mayer Street', 450, 'P001', 2, 'S268', 'AR', '2020/12/03');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O560', 'C039', '7 Kinsman Alley', 130, 'P021', 1, 'S104', 'ThD', '2020/11/29');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O561', 'C002', '22706 Longview Road', 600, 'P072', 1, 'S157', 'FC', '2020/12/14');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O562', 'C189', '0231 Dwight Hill', 15, 'P056', 1, 'S181', 'IV', '2020/09/22');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O563', 'C288', '48004 Hazelcrest Crossing', 60, 'P022', 1, 'S260', 'BT', '2020/09/09');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O564', 'C343', '188 Mockingbird Street', 1000, 'P026', 1, 'S108', 'BT', '2020/03/29');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O565', 'C281', '5 Forster Alley', 279, 'P048', 1, 'S050', 'ZH', '2020/04/15');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O566', 'C208', '2 Eggendart Drive', 1300, 'P041', 1, 'S304', 'SH', '2020/02/01');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O567', 'C195', '55 Scoville Junction', 125, 'P035', 1, 'S119', 'EW', '2020/10/12');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O568', 'C167', '16 Red Cloud Crossing', 800, 'P025', 1, 'S027', 'EW', '2020/10/12');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O569', 'C213', '11 Shoshone Circle', 310, 'P037', 1, 'S121', 'AR', '2020/06/23');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O170', 'C218', '04876 Petterle Crossing', 1200, 'P034', 1, 'S035', 'TD', '2020/11/25');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O571', 'C128', '2200 Golf View Junction', 920, 'P051', 1, 'S053', 'LM', '2020/11/27');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O572', 'C133', '8801 Spaight Road', 700, 'P063', 1, 'S311', 'WZ', '2020/02/04');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O573', 'C097', '77 Oxford Park', 2100, 'P013', 1, 'S233', 'MR', '2020/12/09');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O574', 'C007', '10 Pierstorff Road', 750, 'P011', 1, 'S288', 'EC', '2020/12/12');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O575', 'C035', '83040 Graceland Parkway', 360, 'P078', 1, 'S349', 'DE', '2020/03/12');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O576', 'C270', '4702 Green Ridge Crossing', 1010, 'P025', 1, 'S027', 'EC', '2020/01/17');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O577', 'C363', '0154 Little Fleur Drive', 600, 'P005', 1, 'S087', 'AR', '2020/03/22');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O578', 'C106', '96096 Crescent Oaks Street', 310, 'P037', 1, 'S121', 'ThD', '2020/04/30');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O579', 'C051', '21667 Drewry Drive', 60, 'P004', 1, 'S086', 'FC', '2020/01/06');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O580', 'C139', '01874 Mitchell Hill', 600, 'P072', 1, 'S157', 'TD', '2020/08/21');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O081', 'C236', '36 Lillian Pass', 800, 'P043', 1, 'S127', 'FC', '2020/10/15');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O582', 'C141', '0126 Waywood Avenue', 1300, 'P008', 1, 'S185', 'EW', '2020/09/29');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O583', 'C255', '20320 Brentwood Street', 1100, 'P068', 1, 'S234', 'AR', '2020/10/23');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O584', 'C183', '8 Elka Pass', 42, 'P059', 1, 'S143', 'TD', '2020/08/24');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O585', 'C114', '2134 Daystar Street', 990, 'P027', 1, 'S213', 'MR', '2020/10/20');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O586', 'C115', '150 Stuart Center', 840, 'P017', 1, 'S017', 'DE', '2020/12/10');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O587', 'C193', '8 Garrison Terrace', 560, 'P047', 1, 'S341', 'AR', '2020/12/16');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O588', 'C242', '412 Miller Way', 840, 'P017', 1, 'S017', 'AR', '2020/05/01');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O589', 'C297', '6 Hoffman Road', 1400, 'P018', 1, 'S279', 'MR', '2020/10/29');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O290', 'C143', '90879 Towne Trail', 125, 'P035', 1, 'S119', 'DE', '2020/12/13');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O591', 'C222', '878 Rutledge Road', 1100, 'P010', 1, 'S026', 'EC', '2020/11/04');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O592', 'C391', '12 Buhler Plaza', 1000, 'P026', 1, 'S108', 'AR', '2020/12/09');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O593', 'C149', '90 Meadow Valley Junction', 1050, 'P023', 1, 'S023', 'EW', '2020/02/12');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O594', 'C139', '29743 Little Fleur Plaza', 750, 'P011', 1, 'S288', 'LM', '2020/01/30');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O595', 'C175', '23873 Brown Center', 1465, 'P064', 1, 'S066', 'LM', '2020/03/30');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O596', 'C101', '4 Aberg Place', 26, 'P058', 1, 'S183', 'TD', '2020/08/30');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O597', 'C103', '1463 Sauthoff Alley', 17, 'P057', 1, 'S182', 'MR', '2020/05/30');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O598', 'C139', '712 Ridgeview Road', 1450, 'P012', 1, 'S002', 'EC', '2020/07/13');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O599', 'C330', '7328 Tony Court', 60, 'P022', 1, 'S272', 'BT', '2020/10/17');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O601', 'C148', '1378 Blue Bill Park Drive', 840, 'P017', 1, 'S017', 'LM', '2020/10/04');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O602', 'C005', '30795 Browning Hill', 20, 'P061', 1, 'S186', 'IV', '2020/11/14');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O603', 'C083', '6470 Clemons Road', 1, 'P055', 1, 'S250', 'AR', '2020/08/10');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O604', 'C151', '020 Redwing Street', 1450, 'P012', 1, 'S002', 'MR', '2020/4/30');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O605', 'C329', '34041 American Crossing', 400, 'P071', 1, 'S155', 'FC', '2020/03/09');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O606', 'C119', '5562 Spenser Avenue', 600, 'P050', 1, 'S052', 'EC', '2020/05/13');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O607', 'C155', '4655 Atwood Street', 360, 'P078', 1, 'S349', 'AR', '2020/07/05');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O608', 'C269', '4193 Macpherson Road', 23, 'P060', 2, 'S144', 'LM', '2020/07/12');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O609', 'C200', '957 Heffernan Court', 320, 'P046', 1, 'S212', 'LM', '2020/11/27');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O610', 'C017', '15 Holy Cross Pass', 125, 'P035', 1, 'S119', 'AR', '2020/02/04');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O611', 'C043', '4 Surrey Pass', 310, 'P037', 1, 'S121','IV', '2020/10/06');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O612', 'C194', '2 Dapin Point', 1450, 'P012', 1, 'S002', 'FC', '2020/11/10');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O613', 'C123', '3 Lillian Parkway', 500, 'P040', 1, 'S124', 'FC', '2020/08/08');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O614', 'C178', '04066 East Drive', 400, 'P071', 1, 'S155', 'FC', '2020/01/10');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O615', 'C010', '41 Mariners Cove Street', 130, 'P021', 1, 'S211', 'AR', '2020/08/07');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O616', 'C212', '140 Corscot Terrace', 1600, 'P030', 1, 'S165', 'FC', '2020/03/14');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O211', 'C178', '285 Pierstorff Avenue', 1302, 'P031', 1, 'S109', 'LM', '2020/04/13');
+insert into Orders (OrderID, CustomerID, Billing_Address, Sale_Value, ProductID, Product_Quantity_Purchased, StockID, EmployeeID, OrderDate) values ('O618', 'C245', '32021 Brown Court', 2100, 'P013', 1, 'S233', 'ZH', '2020/09/13');
+
+# Basic Retrieval Query
+
+Select Product_Sale_Price, ProductID, Product_Name,Product_Unit_Cost
+from Product
+where Product_Sale_Price>100
+
+# Query - Joining Tables
+
+DELIMITER //
+Select Product.ProductID, Product.Product_Name, Product.SupplierID, Supplier.Supplier_Name, Supplier.Supplier_Address 
+from Product
+Inner Join Supplier
+Where Product.SupplierID = Supplier.SupplierID
+Order By Product.ProductID
+Delimiter ;
+
+# Creating Procedure
+
+Use ieinstruments;
+DELIMITER //
+Create Procedure Sales
+(
+IN StartDate DATETIME,
+IN EndDate DATETIME
+)
+Begin
+Select OrderDate, Sale_Value from Orders
+Where OrderDate between StartDate AND EndDate;
+End //
+Delimiter ;
+Use ieinstruments;
+Call Sales('2020/11/23', '2020/12/07');
+
+# Creating View for Sales between Dates
+
+DELIMITER //
+Use ieinstruments;
+CREATE VIEW OctoberSales AS
+SELECT Orders.CustomerID, Sale_Value, Product_Quantity_Purchased, ProductID FROM Orders
+JOIN Customeroctobersales
+on Orders.CustomerID = Customer.CustomerID
+where OrderDate between '2020/10/01' AND '2020/10/31'
+Group By CustomerID
+DELIMITER ;
+
+# Sales by Month
+
+Use ieinstruments;
+Select Coalesce
+(monthname(OrderDate), 'Total') as Month, sum(Product_Quantity_Purchased) as ProductsSold, Sum(Sale_Value) as Revenue
+From Orders
+Group By monthname(OrderDate) with rollup
+Order by month(str_to_date(month, '%M'))
+
